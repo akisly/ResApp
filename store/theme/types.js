@@ -1,0 +1,3 @@
+const THEME_SET_DARK_MODE = 'THEME_SET_DARK_MODE';
+
+export default THEME_SET_DARK_MODE;
