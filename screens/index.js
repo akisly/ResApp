@@ -2,7 +2,6 @@ import HomeScreen from './HomeScreen';
 import DetailsScreen from './DetailsScreen';
 import UserScreen from './UserScreen';
 import AccountDetailsScreen from './AccountDetailsScreen';
-import MapScreen from './MapScreen';
 import BookingScreen from './BookingScreen';
 import SavedRestaurantsScreen from './SavedRestaurantsScreen';
 import SearchCityScreen from './SearchCityScreen';
@@ -17,7 +16,6 @@ export {
 	DetailsScreen,
 	UserScreen,
 	AccountDetailsScreen,
-	MapScreen,
 	BookingScreen,
 	SavedRestaurantsScreen,
 	SearchCityScreen,

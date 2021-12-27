@@ -10,7 +10,6 @@ import { useTranslation } from 'react-i18next';
 import {
 	HomeScreen,
 	UserScreen,
-	MapScreen,
 	SavedRestaurantsScreen
 } from '../screens';
 
@@ -57,21 +56,6 @@ const Tabs = () => {
 								marginTop: 4
 							}}>
 								{t('home')}
-							</Text>
-						</View>
-					),
-				}}
-			/>
-   
-			<Tab.Screen
-				name="Map"
-				component={MapScreen}
-				options={{
-					tabBarIcon: ({ focused }) => (
-						<View style={{ alignItems: 'center', justifyContent: 'center' }}>
-							<FontAwesome5 name="map" size={16} color={focused ? COLORS.primary : inactiveTabColor} />
-							<Text style={{ color: focused ? COLORS.primary : inactiveTabColor, fontSize: 12, marginTop: 4 }}>
-								{t('map')}
 							</Text>
 						</View>
 					),
